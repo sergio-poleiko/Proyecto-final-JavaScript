@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- toastify -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    
+    <!-- style -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Sergio Poleiko</title>
+</head>
+<body>
+    <header>
+        <h1>Tecsol Hard Solutions</h1>
+    </header>
+
+    <main>
+        <div id="imgCarrito"></div>
+
+        <!-- Contenedor de productos -->
+        <div id="contenedorProductos"></div>
+    </main>
+
+    <!-- modal carrito -->
+    <section class="modal" id="modal">
+        <div class="modalContainer">
+
+            <div id="contenedorCarrito"></div>
+            
+            <div class="botones">
+                <button id="enviar" class="volverD">Enviar</button>
+                <button id="volver" class="volver">volver</button>
+                <button id="vaciarCarrito" class="volver">borrar carrito</button>
+            </div>
+            <p class="total">Total de la Compra es<span id="total"></span></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Todo lo que necesitas en un solo lugar</p>
+    </footer>
+    
+    <!-- toastify -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
